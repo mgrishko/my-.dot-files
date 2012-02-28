@@ -140,3 +140,6 @@ alias spec='time rspec --drb spec'
 alias cucew='be rake cucumber:wip RAILS_ENV=cucumber'
 alias cuce='be rake cucumber RAILS_ENV=cucumber'
 alias coverage='bundle exec rake spec RAILS_ENV=test COVERAGE=true && bundle exec rake cucumber features RAILS_ENV=cucumber COVERAGE=true'
+
+#set locale for ssh
+LC_CTYPE=en_US.UTF-8

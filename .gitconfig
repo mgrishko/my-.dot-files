@@ -1,10 +1,10 @@
 [user]
-	name = Mikhail Grishko
-	email = mikhailaleksandrovi4@gmail.com
+  name = Mikhail Grishko
+  email = mikhail.grishko@gmail.com
 [core]
-	;autocrlf = input
-	editor = vim
-        ;safecrlf = true
+  ;autocrlf = input
+  editor = vim
+  ;safecrlf = true
 [alias]
   co = checkout
   cm = commit
@@ -17,13 +17,14 @@
 [push]
   default = current
 [color]
-	ui = true
+  ui = true
 [giggle]
-	main-window-maximized = true
-	main-window-geometry = 0x0+0+0
-	history-view-vpane-position = 301
-	main-window-view = HistoryView:
-	file-view-vpane-position = 129
+  main-window-maximized = true
+  main-window-geometry = 0x0+0+0
+  history-view-vpane-position = 301
+  main-window-view = HistoryView:
+  file-view-vpane-position = 129
+
 ;[remote "origin"]
        ;fetch = +refs/heads/*:refs/remotes/origin/*
        ;url = git@git.assembla.com:webforms2.git
@@ -33,12 +34,12 @@
 ;[branch "rails3"]
        ;remote = origin
        ;merge = refs/heads/rails3
+;[remote "origin"]
+       ;fetch = +refs/heads/*:refs/remotes/origin/*
+       ;url = git@github.com:ZombieHarvester/GoodsMaster.git
+;[branch "develop"]
+       ;remote = origin
+       ;merge = refs/heads/develop
 [remote "origin"]
        fetch = +refs/heads/*:refs/remotes/origin/*
-       url = git@git.assembla.com:webforms2.2.git
-[branch "develop"]
-       remote = origin
-       merge = refs/heads/develop
-[branch "master"]
-       remote = origin
-       merge = refs/heads/master
+       url = git@github.com:mikhailaleksandrovi4/ruby_courses.git
