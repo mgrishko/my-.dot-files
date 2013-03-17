@@ -16,6 +16,8 @@
   uncommit = reset --soft HEAD^
 [push]
   default = current
+[pull]
+  default = current
 [color]
   ui = true
 [giggle]
@@ -24,22 +26,3 @@
   history-view-vpane-position = 301
   main-window-view = HistoryView:
   file-view-vpane-position = 129
-
-;[remote "origin"]
-       ;fetch = +refs/heads/*:refs/remotes/origin/*
-       ;url = git@git.assembla.com:webforms2.git
-;[branch "master"]
-       ;remote = origin
-       ;merge = refs/heads/master
-;[branch "rails3"]
-       ;remote = origin
-       ;merge = refs/heads/rails3
-;[remote "origin"]
-       ;fetch = +refs/heads/*:refs/remotes/origin/*
-       ;url = git@github.com:ZombieHarvester/GoodsMaster.git
-;[branch "develop"]
-       ;remote = origin
-       ;merge = refs/heads/develop
-[remote "origin"]
-       fetch = +refs/heads/*:refs/remotes/origin/*
-       url = git@github.com:mikhailaleksandrovi4/ruby_courses.git
